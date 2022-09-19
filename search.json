@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-09-19T10:58:46+02:00"
+    },
+    {
+      "path": "article.html",
+      "title": "R Packages",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Karishma Srikanth",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nIn an effort to promote collaboration on analytical projects and facilitate code replicability, we’ve developed R Packages and encourage the use of git / github as a version control tool. These packages are primarily used and maintained by OHA/HQ staff but remain accessible to other analysts across the bureau, the agency, abroad.\r\ntierdrop <href=“https://usaid-sa-si.github.io/tierdrop/” img src=“https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png” target=\"_blank\" align=“center” height=“120” />\r\n\r\n\r\n     <div class=\"col-3\">\r\n        <!-- <h1>tierdrop<\/h1> -->\r\n        <a href=\"https://usaid-sa-si.github.io/tierdrop/\" target=\"_blank\">\r\n            <img src=\"https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png\" />\r\n        <\/a>\r\n    <\/div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-09-19T10:58:47+02:00"
+    },
+    {
       "path": "index.html",
       "title": "USAID South Africa - Strategic Information",
       "description": "Welcome! This website serves as a repository of tools and project utilized by the USAID South Africa SI team for data analytics and processing of MER/PEPFAR data.\n",
@@ -11,7 +33,7 @@
         }
       ],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-09-19T10:56:30+02:00"
+      "last_modified": "2022-09-19T10:58:47+02:00"
     }
   ],
   "collections": []
