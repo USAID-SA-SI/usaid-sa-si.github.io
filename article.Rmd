@@ -1,0 +1,29 @@
+---
+title: "R Packages"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Karishma Srikanth
+    affiliation: USAID OHA SI
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In an effort to promote collaboration on analytical projects and facilitate code replicability, we've developed R Packages and encourage the use of git / github as a version control tool. These packages are primarily used and maintained by OHA/HQ staff but remain accessible to other analysts across the bureau, the agency, abroad.
+
+# tierdrop <href="https://usaid-sa-si.github.io/tierdrop/" img src="https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png" target="_blank" align="center" height="120" />
+
+<html>
+    <div class="row mb-3">
+         <div class="col-3">
+            <!-- <h1>tierdrop</h1> -->
+            <a href="https://usaid-sa-si.github.io/tierdrop/" target="_blank">
+                <img src="https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png" />
+            </a>
+        </div>
+</html>
+

@@ -1,0 +1,20 @@
+---
+title: "USAID South Africa - Strategic Information"
+description: |
+  Welcome! This website serves as a repository of tools and project utilized by the USAID South Africa SI team for data analytics and processing of MER/PEPFAR data.
+author:
+  - first_name: "Karishma"
+    last_name: "Srikanth"
+    affiliation: USAID OHA SI
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+

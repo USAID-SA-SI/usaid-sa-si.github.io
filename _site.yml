@@ -1,0 +1,14 @@
+name: "usaid-sa-si.github.io"
+title: "USAID South Africa - Strategic Information"
+description: |
+  USAID South Africa - Strategic Information
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Tools"
+      href: tools.html
+output: distill::distill_article
