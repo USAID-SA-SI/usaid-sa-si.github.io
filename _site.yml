@@ -10,5 +10,5 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Tools"
-      href: tools.html
+      href: article.html
 output: distill::distill_article

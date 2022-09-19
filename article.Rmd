@@ -1,7 +1,5 @@
 ---
-title: "R Packages"
-description: |
-  A new article created using the Distill format.
+title: "R Packages and Tools"
 author:
   - name: Karishma Srikanth
     affiliation: USAID OHA SI
@@ -13,17 +11,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In an effort to promote collaboration on analytical projects and facilitate code replicability, we've developed R Packages and encourage the use of git / github as a version control tool. These packages are primarily used and maintained by OHA/HQ staff but remain accessible to other analysts across the bureau, the agency, abroad.
+In an effort to promote collaboration on analytical projects and facilitate code replicability, we've developed R Packages and encourage the use of git / github as a version control tool. These packages are primarily used to optimize work flows for USAID South Africa, particularly as it relates to data management and processing.
 
-# tierdrop <href="https://usaid-sa-si.github.io/tierdrop/" img src="https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png" target="_blank" align="center" height="120" />
+# [TierDrop](https://usaid-sa-si.github.io/tierdrop/) <img src="https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png" target="_blank" align="right" height="200" />
 
-<html>
-    <div class="row mb-3">
-         <div class="col-3">
-            <!-- <h1>tierdrop</h1> -->
-            <a href="https://usaid-sa-si.github.io/tierdrop/" target="_blank">
-                <img src="https://github.com/USAID-SA-SI/tierdrop/raw/main/man/figures/logo.png" />
-            </a>
-        </div>
-</html>
+TierDrop is a package to process, validate, and consolidate MER data from 2 primary data sources (TIER data from the National Department of Health (NDoH) and non-TIER data reported from implementing partners) for import to DATIM for USAID South Africa.
 
+This package will allow users to tidy and process data from NDoH into a DATIM import file, consolidate TIER and non-TIER files, and run verification checks to build the Data Quality Reporting Trackers (DQRT).
