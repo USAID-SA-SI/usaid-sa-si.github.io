@@ -2,7 +2,7 @@ name: "usaid-sa-si.github.io"
 title: "USAID South Africa - Strategic Information"
 description: |
   USAID South Africa - Strategic Information
-output_dir: "_site"
+output_dir: "."
 navbar:
   right:
     - text: "Home"
